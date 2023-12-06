@@ -25,10 +25,10 @@ dependencies:
     version: 8.9.2(vue@3.2.37)
   '@vueuse/integrations':
     specifier: ^8.9.2
-    version: 8.9.2(axios@0.27.2)(qrcode@1.5.0)(vue@3.2.37)
+    version: 8.9.2(axios@1.6.0)(qrcode@1.5.0)(vue@3.2.37)
   axios:
-    specifier: ^0.27.2
-    version: 0.27.2
+    specifier: ^1.6.0
+    version: 1.6.0
   dayjs:
     specifier: ^1.11.3
     version: 1.11.3
@@ -2404,7 +2404,7 @@ packages:
       vue-demi: 0.14.5(vue@3.2.37)
     dev: false
 
-  /@vueuse/integrations@8.9.2(axios@0.27.2)(qrcode@1.5.0)(vue@3.2.37):
+  /@vueuse/integrations@8.9.2(axios@1.6.0)(qrcode@1.5.0)(vue@3.2.37):
     resolution: {integrity: sha512-FL1A/ertkNhc7YB1DgqAyXm5xXLnZiki0i1pLnMev7XmPr6ahj+dr9bxyBX2lLuGnnDF6h4rtG/LOUg2ViywFA==}
     peerDependencies:
       async-validator: '*'
@@ -2441,7 +2441,7 @@ packages:
     dependencies:
       '@vueuse/core': 8.9.2(vue@3.2.37)
       '@vueuse/shared': 8.9.2(vue@3.2.37)
-      axios: 0.27.2
+      axios: 1.6.0
       qrcode: 1.5.0
       vue-demi: 0.14.5(vue@3.2.37)
     transitivePeerDependencies:
@@ -2635,11 +2635,12 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /axios@0.27.2:
-    resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
+  /axios@1.6.0:
+    resolution: {integrity: sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
+      proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -6004,6 +6005,10 @@ packages:
     resolution: {integrity: sha512-mQUvGU6aUFQ+rNvTIAcZuWGRT9a6f6Yrg9bHs4ImKF+HZCEK+plBvnAZYSIQztknZF2qnzNtr6F8s0+IuptdlQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     dev: true
+
+  /proxy-from-env@1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+    dev: false
 
   /punycode@2.3.0:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}

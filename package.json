@@ -16,7 +16,7 @@
     "@nutui/nutui": "^3.3.8",
     "@vueuse/core": "^8.9.2",
     "@vueuse/integrations": "^8.9.2",
-    "axios": "^0.27.2",
+    "axios": "^1.6.0",
     "dayjs": "^1.11.3",
     "js-yaml": "^4.1.0",
     "marked": "^7.0.4",
