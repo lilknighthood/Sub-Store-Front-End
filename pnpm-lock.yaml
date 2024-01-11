@@ -2638,7 +2638,7 @@ packages:
   /axios@0.27.2:
     resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
     dependencies:
-      follow-redirects: 1.15.2
+      follow-redirects: 1.15.4
       form-data: 4.0.0
     transitivePeerDependencies:
       - debug
@@ -4341,8 +4341,8 @@ packages:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
-  /follow-redirects@1.15.2:
-    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
+  /follow-redirects@1.15.4:
+    resolution: {integrity: sha512-Cr4D/5wlrb0z9dgERpUL3LrmPKVDsETIJhaCMeDfuFYcqa5bldGV6wBsAN6X/vxlXQtFBMrXdXxdL8CbDTGniw==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -7515,7 +7515,6 @@ packages:
 
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
-    dev: true
 
   /yaml-eslint-parser@1.2.2:
     resolution: {integrity: sha512-pEwzfsKbTrB8G3xc/sN7aw1v6A6c/pKxLAkjclnAyo5g5qOh6eL9WGu0o3cSDQZKrTNk4KL4lQSwZW+nBkANEg==}
@@ -7595,7 +7594,7 @@ packages:
     version: 6.0.0
     engines: {node: '>=10'}
     dependencies:
-      yallist: registry.npmmirror.com/yallist@4.0.0
+      yallist: 4.0.0
     dev: false
 
   registry.npmmirror.com/semver@7.5.4:
@@ -7606,10 +7605,4 @@ packages:
     hasBin: true
     dependencies:
       lru-cache: registry.npmmirror.com/lru-cache@6.0.0
-    dev: false
-
-  registry.npmmirror.com/yallist@4.0.0:
-    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==, registry: https://registry.npmjs.org/, tarball: https://registry.npmmirror.com/yallist/-/yallist-4.0.0.tgz}
-    name: yallist
-    version: 4.0.0
     dev: false
